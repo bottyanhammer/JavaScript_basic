@@ -55,6 +55,8 @@ t.join() ---> '10,20,30'     t.join('')   ---> '102030'
 const pElements = document.querySelectorAll("p");
 //pElements.at(-1).style.fontFamily = "Arial";
 pElements[pElements.length-1].style.color = "hsl(100, 60%, 70%)";
+
+// Ez a rész már nem kell:
 Array.from(pElements).splice(0, 3);
 // Az Array.from() metódus tömböt készít a nodeList-ből. A NodeList nem tömb!!!
 floatDiv.innerHTML = "";
